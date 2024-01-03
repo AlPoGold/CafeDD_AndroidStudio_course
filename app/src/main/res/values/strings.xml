@@ -18,6 +18,7 @@
     <string name="tv_drink">Drink: \n</string>
     <string name="tv_typeDrink">"Type of drink: "</string>
     <string name="tv_additives">"Additives: "</string>
+    <string name="error_empty_fields">"Please, fill all fields "</string>
 
 
     <array name="types_of_tea">
