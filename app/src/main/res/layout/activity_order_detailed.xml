@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".OrderDetailedActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewName"
+            android:text="@string/tv_name"
+            android:textSize="48sp"
+            android:layout_margin="48dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewName_res"
+            android:text="@string/tv_name"
+            android:textSize="48sp"
+            android:layout_margin="48dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewDrink"
+            android:text="@string/tv_drink"
+            android:textSize="48sp"
+            android:layout_margin="48dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewDrink_res"
+            android:text="@string/tv_drink"
+            android:textSize="48sp"
+            android:layout_margin="48dp"/>
+        <TextView
+            android:id="@+id/textViewTypeDrink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_typeDrink"
+            android:textSize="48sp"
+            android:layout_margin="48dp"/>
+        <TextView
+            android:id="@+id/textViewTypeDrink_res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_typeDrink"
+            android:textSize="48sp"
+            android:layout_margin="48dp"/>
+        <TextView
+            android:id="@+id/textViewAdditivies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_additives"
+            android:textSize="48sp"
+            android:layout_margin="48dp"/>
+        <TextView
+            android:id="@+id/textViewAdditivies_res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_additives"
+            android:textSize="48sp"
+            android:layout_margin="48dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

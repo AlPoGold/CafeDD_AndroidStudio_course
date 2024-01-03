@@ -14,6 +14,10 @@
     <string name="lemon">lemon</string>
     <string name="type_of_drink">Choose the type of your drink</string>
     <string name="make_an_order">Make an order</string>
+    <string name="tv_name">Name:</string>
+    <string name="tv_drink">Drink: \n</string>
+    <string name="tv_typeDrink">"Type of drink: "</string>
+    <string name="tv_additives">"Additives: "</string>
 
 
     <array name="types_of_tea">
