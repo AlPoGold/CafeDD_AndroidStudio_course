@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CafeDD</string>
+    <string name="welcome_text">WELCOME!</string>
+    <string name="user_name_hint">Insert user name</string>
+    <string name="insert_password_hint">Insert password</string>
+    <string name="enter_btn">ENTER</string>
+    <string name="content_description_image_logo_dunkin_donuts">Image logo - Dunkin Donuts</string>
+</resources>
