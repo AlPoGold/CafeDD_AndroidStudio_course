@@ -62,7 +62,7 @@ public class OrderDetailedActivity extends AppCompatActivity {
         Intent intent = new Intent(context, OrderDetailedActivity.class);
         intent.putExtra(EXTRA_USER_NAME, userName);
         intent.putExtra(EXTRA_USER_DRINK, userDrink);
-        intent.putExtra(EXTRA_USER_ADDITIONS, additions.toString());
+        intent.putExtra(EXTRA_USER_ADDITIONS, String.join(",", additions));
         intent.putExtra(EXTRA_USER_DRINK_TYPE, drinkType);
         return intent;
     }
